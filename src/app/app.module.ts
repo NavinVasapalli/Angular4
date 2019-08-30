@@ -7,13 +7,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
+import { SummaryPipe } from '../../summary.Pipes';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponent,
-    CourseComponent
+    CourseComponent,
+    SummaryPipe
+
 
   ],
   imports: [
