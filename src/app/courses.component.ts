@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'courses',
-  
   // template: `
   // <h2>{{ title  + " - " + getTitle() }} </h2>
   // <ul>
@@ -74,7 +73,7 @@ import { Component } from '@angular/core';
 
 <h3> Using tables </h3>
 ============================================================
-<table class="table">
+<table class="table table-bordered">
 <tr>
 <td [attr.colspan]='colSpan'>First name and Last name</td>
 </tr>

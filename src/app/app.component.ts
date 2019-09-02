@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  post= {
+    title: 'Title',
+    isFavorite: true
+  };
+
+  onFavoriteChange(eventArgs : {newValue : boolean}) { 
+    // console.log('just a boolean object onchanged' , isFavorite);
+    console.log('javascript object' , eventArgs);
+  }
+
+
 }

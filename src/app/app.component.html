@@ -1,2 +1,22 @@
-<h1>Angular</h1>
-<courses></courses>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Angular</h1>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12">
+                <courses></courses>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <app-favorite [isFavorite]="post.isFavorite" (change)="onFavoriteChange($event)"></app-favorite>
+        </div>
+    </div>
+</div>
+
